@@ -1,0 +1,20 @@
+#instruction found here:
+#https://api.bnf.fr/fr/api-document-de-gallica#/Issues/get_services_Issues
+#How to get ark code of each issues in a year:
+#https://gallica.bnf.fr/services/Issues?ark=ark:/12148/cb34348109k/date&date=1890
+#how to get the total issues:
+#https://gallica.bnf.fr/services/Issues?ark=ark:/12148/cb34348109k/date
+#the most important is to find your baseURL to do so you need to find the ARKCODE of your document and insert it in 
+#this example URL:
+#https://gallica.bnf.fr/services/Issues?ark=ark:/12148/ARKCODE/date&date=
+"""
+Example of an xml in BNF: https://gallica.bnf.fr/services/Issues?ark=ark:/12148/cb34348109k/date&date=1890
+<issues compile_time="0:00:00.056" date="1890" listType="issue" parentArk="cb34348109k/date">
+<issue ark="bpt6k408685h" dayOfYear="1"> 1890</issue>
+<issue ark="bpt6k4086844" dayOfYear="1"> 1890</issue>
+</issues>
+"""
+"""
+Example of pdf link:
+https://gallica.bnf.fr/ark:/12148/bpt6k6262129s.pdf
+"""
