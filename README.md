@@ -21,14 +21,14 @@ source .env/bin/activate
 
 ```
 
-# Usage 
+## Usage 
 ```bash
 python get_pdf.py
 
 ```
 The output will be stored in the folder "PDF"
 
-# Adapt code to your case
+## Adapt code to your case
 Open "get_pdf.py" with a text editor.
 The most important is to change and adapt the baseURL. You can find this variable in the part 0 of the code at the begining.
 The most important is to find your baseURL, to do so you need to find the ARKCODE of the periodic you are interested in
@@ -39,6 +39,6 @@ https://gallica.bnf.fr/services/Issues?ark=ark:/12148/ARKCODE/date&date=
 
 
 
-# Author
+## Author
 * Marie Dubremetz (Engineer at CDHU Uppsala University) github: @mardub1635 gitlab: @mardub For technical questions: marie.dubremetz@abm.uu.se
  or mardubr-github@yahoo.fr . www.mariedubremetz.com
