@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the following metadata."
+title: "gallica_pdf"
+authors:
+  - family-names: "Dubi"
+    given-names: "Mardub"
+    affiliation: "Your Institution or Organization"
+date-released: "2023-12-06"
+version: "1.0.0"
+repository-code: "https://gitlab.com/mardub/gallica_pdf"
+doi: "10.5281/zenodo.13981618"
+url: "https://zenodo.org/record/13981618"
+license: "BSD-3-Clause"
+keywords:
+  - "Gallica"
+  - "PDF"
+  - "Corpus collection"
+  - "Digital library"
+  - "Python"
