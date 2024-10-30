@@ -1,19 +1,19 @@
-cff-version: 1.2.0
 message: "If you use this software, please cite it using the following metadata."
-title: "gallica_pdf"
+abstract: <p>Gallica_pdf is a tool written in Python made to download documents hosted
+  on the national French library &lt;a href="http://gallica.bnf.fr/"&gt;Gallica&lt;/a&gt;.
+  It allows for the quick constitution of corpora and can be adapted to your own corpus
+  of interest.</p>
 authors:
-  - family-names: "Dubremetz"
-    given-names: "Marie"
-    affiliation: "CDHU Uppsala University"
-date-released: "2023-12-06"
-version: "1.0.0"
+- affiliation: Uppsala University
+  family-names: Dubremetz
+  given-names: Marie
+  orcid: 0000-0002-8890-1078
+cff-version: 1.2.0
+date-released: '2024-10-23'
 repository-code: "https://gitlab.com/mardub/gallica_pdf"
-doi: "10.5281/zenodo.13981618"
-url: "https://zenodo.org/record/13981618"
-license: "BSD-2"
-keywords:
-  - "Gallica"
-  - "PDF"
-  - "Corpus collection"
-  - "Digital library"
-  - "Python"
+doi: 10.5281/zenodo.13981618
+license:
+- cc-by-4.0
+title: "A webscraper for the French National Library: Gallica BNF (Biblioth\xE8que\
+  \ nationale de France)"
+type: software
